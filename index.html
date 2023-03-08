@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This website was created for the purpose reducing stress"/>
+    <title>responsive organic website using html, css & javascript</title>
+    <!-- box-icons cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+  </head>
+  <body>
+    <header>
+      <h2 class="logo">
+        Organi<span>ca</span>
+      </h2>
+      <span href="#" id="menu-link"><i class="bx bx-menu"></i></span>
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Shop">Shop</a></li>
+        <li><a href="#Blog">Blog</a></li>
+        <li><a href="#Products">Products</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+      <div id="icons">
+        <i class="bx bx-search search-icon" id="search"></i>
+        <div class="searchBox">
+          <input type="text" placeholder="search items" />
+        </div>
+        <span class="search">5</span>
+        <i class="bx bx-shopping-bag shopping-icon"></i>
+      </div>
+    </header>
+    <!-- home page -->
+    <div class="home" id="home">
+      <div class="home-container">
+        <div class="home-content">
+          <h3>25% off all products.</h3>
+          <h4>
+            Quality
+            <span>organic</span>
+            fruit &
+            <span>vegetables.</span>
+          </h4>
+          <p>
+            It has survived not only five
+            <br />
+            centuries also there leaped.
+          </p>
+          <a href="#" class="btn">
+            Shop Now
+            <i class="bx bx-chevron-right arrow"></i>
+          </a>
+        </div>
+        <div class="home-image">
+          <img
+            src="./assets/images/hero-banner.png"
+            alt=""
+            class="product-small"
+          />
+        </div>
+      </div>
+    </div>
+    <section class="middle">
+      <div class="middle-container">
+        <div class="middle-container-box">
+          <div class="image">
+            <img src="./assets/images/service-icon-1.png" alt="" />
+          </div>
+          <div class="text">
+            <h4>fast shipping</h4>
+          </div>
+        </div>
+        <div class="middle-container-box">
+          <div class="image">
+            <img src="./assets/images/service-icon-2.png" alt="" />
+          </div>
+          <div class="text">
+            <h4>safe payment</h4>
+          </div>
+        </div>
+        <div class="middle-container-box">
+          <div class="image">
+            <img src="./assets/images/service-icon-3.png" alt="" />
+          </div>
+          <div class="text">
+            <h4>24/7 support</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="offer">
+      <div class="offer-container">
+        <div class="offer-container-box">
+          <div class="offer-content">
+            <h3>Up To 25% Off</h3>
+            <h4>Fresh vegetables package</h4>
+            <a href="#" class="btn-btn">shop now</a>
+          </div>
+          <div class="offer-image">
+            <img src="./assets/images/offer-1.png" alt="" />
+          </div>
+        </div>
+        <div class="offer-container-box">
+          <div class="offer-content">
+            <h3>Up To 25% Off</h3>
+            <h4>Healthy & fresh beef.</h4>
+            <a href="#" class="btn-btn">shop now</a>
+          </div>
+          <div class="offer-image">
+            <img src="./assets/images/offer-2.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product page -->
+    <section class="products" id="Products">
+      <h3>
+        <i class="bx bx-right-arrow-alt"></i>
+        Organic Products
+        <i class="bx bx-right-arrow-alt"></i>
+      </h3>
+      <h1>All Organic Products</h1>
+      <div class="product-container">
+        <div class="product-container-box">
+          <div class="product_image">
+            <img src="./assets/images/filter-1-active.png" alt="" />
+          </div>
+          <div class="product_text">
+            <h4>Fresh Vegetables</h4>
+          </div>
+        </div>
+        <div class="product-container-box">
+          <div class="product_image">
+            <img src="./assets/images/filter-3-active.png" alt="" />
+          </div>
+          <div class="product_text">
+            <h4>Fish & Meat</h4>
+          </div>
+        </div>
+        <div class="product-container-box">
+          <div class="product_image">
+            <img src="./assets/images/filter-3-active.png" alt="" />
+          </div>
+          <div class="product_text">
+            <h4>Healthy Fruit</h4>
+          </div>
+        </div>
+        <div class="product-container-box">
+          <div class="product_image">
+            <img src="./assets/images/filter-3-active.png" alt="" />
+          </div>
+          <div class="product_text">
+            <h4>Dairy Products</h4>
+          </div>
+        </div>
+      </div>
+      <div class="product_container">
+        <div class="product_container_box">
+          <img src="./assets/images/product-1.png" alt="" class="box-image" />
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <h4>Fresh Orangey</h4>
+          <h5>$75.00</h5>
+          <br />
+          <a href="#" class="btn-btn">add to cart</a>
+        </div>
+        <div class="product_container_box">
+          <img src="./assets/images/product-2.png" alt="" class="box-image" />
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <h4>key lime</h4>
+          <h5>$80.00</h5>
+          <br />
+          <a href="#" class="btn-btn">add to cart</a>
+        </div>
+        <div class="product_container_box">
+          <img src="./assets/images/product-3.png" alt="" class="box-image" />
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <h4>Fresh Watermelon</h4>
+          <h5>$50.00</h5>
+          <br />
+          <a href="#" class="btn-btn">add to cart</a>
+        </div>
+        <div class="product_container_box">
+          <img src="./assets/images/product-4.png" alt="" class="box-image" />
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <h4>Visual matches</h4>
+          <h5>$20.00</h5>
+          <br />
+          <a href="#" class="btn-btn">add to cart</a>
+        </div>
+        <div class="product_container_box">
+          <img src="./assets/images/product-5.png" alt="" class="box-image" />
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <h4>Pomagranate Fruit</h4>
+          <h5>$10.00</h5>
+          <br />
+          <a href="#" class="btn-btn">add to cart</a>
+        </div>
+        <div class="product_container_box">
+          <img src="./assets/images/product-6.png" alt="" class="box-image" />
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <h4>Red onion</h4>
+          <h5>$60.00</h5>
+          <br />
+          <a href="#" class="btn-btn">add to cart</a>
+        </div>
+        <div class="product_container_box">
+          <img src="./assets/images/product-7.png" alt="" class="box-image" />
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <h4>Lens Results Broccoli</h4>
+          <h5>$50.00</h5>
+          <br />
+          <a href="#" class="btn-btn">add to cart</a>
+        </div>
+        <div class="product_container_box">
+          <img src="./assets/images/product-8.png" alt="" class="box-image" />
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <h4>Lens Results Spinach</h4>
+          <h5>$30.00</h5>
+          <br />
+          <a href="#" class="btn-btn">add to cart</a>
+        </div>
+      </div>
+    </section>
+    <div class="cta-container">
+      <h3>Summer Offer</h3>
+      <h1>Up To 50% Off All Product.</h1>
+      <p>It has survived not only five centuries also leaped.</p>
+      <a href="#" class="btn-btn">Shop Now</a>
+    </div>
+    <div class="trending-product" id="Shop">
+      <h3>Organic Food</h3>
+      <h2 id="trending-text">Trendy Products</h2>
+      <div class="trending-product-container">
+        <div class="trending-product-container-box">
+          <div class="trending-image">
+            <img src="./assets/images/top-product-1.png" alt="" />
+          </div>
+          <div class="trending-text">
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <h2>Orangey</h2>
+            <h5>$76.00</h5>
+            <a href="#" class="btn-btn">add to cart</a>
+          </div>
+        </div>
+        <div class="trending-product-container-box">
+          <div class="trending-image">
+            <img src="./assets/images/top-product-2.png" alt="" />
+          </div>
+          <div class="trending-text">
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <h2>key lime</h2>
+            <h5>$55.00</h5>
+            <a href="#" class="btn-btn">add to cart</a>
+          </div>
+        </div>
+        <div class="trending-product-container-box">
+          <div class="trending-image">
+            <img src="./assets/images/top-product-3.png" alt="" />
+          </div>
+          <div class="trending-text">
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <h2>guava</h2>
+            <h5>$40.00</h5>
+            <a href="#" class="btn-btn">add to cart</a>
+          </div>
+        </div>
+        <div class="trending-product-container-box">
+          <div class="trending-image">
+            <img src="./assets/images/top-product-4.png" alt="" />
+          </div>
+          <div class="trending-text">
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <h2>strobery</h2>
+            <h5>$25.00</h5>
+            <a href="#" class="btn-btn">add to cart</a>
+          </div>
+        </div>
+        <div class="trending-product-container-box">
+          <div class="trending-image">
+            <img src="./assets/images/top-product-5.png" alt="" />
+          </div>
+          <div class="trending-text">
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <h2>fruits</h2>
+            <h5>$45.00</h5>
+            <a href="#" class="btn-btn">add to cart</a>
+          </div>
+        </div>
+        <div class="trending-product-container-box">
+          <div class="trending-image">
+            <img src="./assets/images/top-product-6.png" alt="" />
+          </div>
+          <div class="trending-text">
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <h2>Broccoli</h2>
+            <h5>$80.00</h5>
+            <a href="#" class="btn-btn">add to cart</a>
+          </div>
+        </div>
+        <div class="trending-product-container-box">
+          <div class="trending-image">
+            <img src="./assets/images/top-product-7.png" alt="" />
+          </div>
+          <div class="trending-text">
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <h2>Spinach</h2>
+            <h5>$85.00</h5>
+            <a href="#" class="btn-btn">add to cart</a>
+          </div>
+        </div>
+        <div class="trending-product-container-box">
+          <div class="trending-image">
+            <img src="./assets/images/top-product-8.png" alt="" />
+          </div>
+          <div class="trending-text">
+            <div class="stars">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star-half"></i>
+              <i class="bx bxs-star-half"></i>
+            </div>
+            <h2>Lorigun</h2>
+            <h5>$90.00</h5>
+            <a href="#" class="btn-btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="partner">
+      <h3>-- Organic Food --</h3>
+      <h2>Trusted Partners</h2>
+      <div class="partner-container">
+        <div class="partner-container-box">
+          <img src="./assets/images/partner-1.png" alt="" />
+        </div>
+        <div class="partner-container-box">
+          <img src="./assets/images/partner-2.png" alt="" />
+        </div>
+        <div class="partner-container-box">
+          <img src="./assets/images/partner-3.png" alt="" />
+        </div>
+        <div class="partner-container-box">
+          <img src="./assets/images/partner-4.png" alt="" />
+        </div>
+        <div class="partner-container-box">
+          <img src="./assets/images/partner-5.png" alt="" />
+        </div>
+        <div class="partner-container-box">
+          <img src="./assets/images/partner-6.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="testimonials" id="About">
+      <h3>-- Some Testimonial --</h3>
+      <h2>Feedback From Happy Clients</h2>
+      <div class="testimonials-container">
+        <div class="testimonials-container-box">
+          <img src="./assets/images/testimonial-1.jpg" alt="" />
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <p>
+            It was popularized in the 1960s with the release of Lestrade sheets
+            containing Lorem passages and more recently with desktop publishing
+            software.
+          </p>
+          <h6>Willow Peralta</h6>
+          <b>Web Developer</b>
+        </div>
+        <div class="testimonials-container-box">
+          <img src="./assets/images/testimonial-2.jpg" alt="" />
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <p>
+            It was popularized in the 1960s with the release of Lestrade sheets
+            containing Lorem passages and more recently with desktop publishing
+            software.
+          </p>
+          <h6>Pamela Hayrick</h6>
+          <b>Web Developer</b>
+        </div>
+        <div class="testimonials-container-box">
+          <img src="./assets/images/testimonial-3.jpg" alt="" />
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <p>
+            It was popularized in the 1960s with the release of Lestrade sheets
+            containing Lorem passages and more recently with desktop publishing
+            software.
+          </p>
+          <h6>Novella Gerber</h6>
+          <b>Web Developer</b>
+        </div>
+      </div>
+    </section>
+    <section class="blog" id="Blog">
+      <div class="blog-container">
+        <h3>-- News And Blog --</h3>
+        <h1>Bright Side Vegetarianism</h1>
+        <div class="blog-container-box-container">
+          <div class="blog-container-box">
+            <img src="./assets/images/product-small-1.jpg" alt="" />
+            <h4>We automatically search for and apply coupons when</h4>
+            <a href="#" class="btn">read more</a>
+          </div>
+          <div class="blog-container-box">
+            <img src="./assets/images/product-small-2.jpg" alt="" />
+            <h4>How to get more traffic in your website of ecommerce.</h4>
+            <a href="#" class="btn">read more</a>
+          </div>
+          <div class="blog-container-box">
+            <img src="./assets/images/product-small-3.jpg" alt="" />
+            <h4>We automatically search for and apply coupons when</h4>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="Contact">
+      <div class="contact-container">
+        <h4>let's get in touch</h4>
+        <div class="contact-container-box">
+          <div class="contact-image">
+            <img src="./assets/images/product-small-1.jpg" alt="" />
+          </div>
+          <div class="contact-content">
+            <form>
+              <div class="inputBox">
+                <input type="text" placeholder="first name" />
+                <input type="text" placeholder="last name" />
+              </div>
+              <div class="inputBox">
+                <input type="email" id="email" placeholder="email" />
+                <input type="text" placeholder="phone number" />
+              </div>
+              <textarea
+                name=""
+                id=""
+                cols="40"
+                rows="10"
+                placeholder="enter your location "
+              ></textarea>
+            </form>
+            <input type="submit" value="submit" id="submit" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="news-letter">
+      <div class="news-letter-container">
+        <h4>-- Subscribe Newsletter --</h4>
+        <h2>
+          Sign Up To Newsletter & Get
+          <span>20% Off.</span>
+        </h2>
+        <input type="text" placeholder="signup for our news letter" />
+        <a href="#" class="btn-btn">sign up</a>
+      </div>
+    </section>
+    <footer class="container">
+      <div class="footer-container">
+        <div class="footer-col-1">
+          <h4>
+            Organi
+            <span>ca</span>
+          </h4>
+          <p>
+            It was popularized in the 1960s with the release of Lestrade sheets
+            containing Lorem passages and more recently with desktop publishing
+            software like including.
+          </p>
+          <!-- <div id="icons">
+            <i class='bx bx-search search-icon' id="search"></i>
+            <i class='bx bx-search search-icon' id="search"></i>
+            <i class='bx bx-search search-icon' id="search"></i>
+            <i class='bx bx-search search-icon' id="search"></i>
+          </div> -->
+        </div>
+        <div class="footer-col-1">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col-1">
+          <h4>Contact</h4>
+          <ul>
+            <li>
+              <a href="#">7 Green Lake Street Crawfordsville, IN 47933</a>
+            </li>
+            <li><a href="#">+233 599495508</a></li>
+            <li><a href="#">+233 592903160</a></li>
+            <li><a href="#">dabiegorden49@gmail.com</a></li>
+          </ul>
+        </div>
+        <div class="footer-col-1">
+          <h4>Newsletter</h4>
+          <ul>
+            <li>
+              <a href="#">
+                You will be notified when something new will be appear.
+              </a>
+            </li>
+            <input type="text" placeholder="email address" />
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="last-text">
+      <div class="last-text-container">
+        <p>
+          &copy; 2022
+          <span>dabiegorden.</span>
+          All Rights Reserved.
+        </p>
+        <h4>Term and Service</h4>
+      </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
